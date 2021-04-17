@@ -1,0 +1,29 @@
+server:
+  port: 9012
+
+spring:
+  data:
+    mongodb:
+      host: 13.235.2.41
+      port: 27017
+      database: BonaFide
+
+jwt:
+  secret: javainuse
+
+security:
+  enable-csrf: false
+
+default:
+  connect:
+    timeout: 30000
+  connection:
+    request:
+      timeout: 30000
+  read:
+    timeout: 30000
+
+httpClient:
+  defaultMaxTotalConnections: 100
+  defaultMaxConnectionsPerRoute: 10
+  defaultConnectionTimeout: 100
