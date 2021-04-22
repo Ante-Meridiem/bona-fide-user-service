@@ -30,8 +30,16 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>com.ante.meridiem.infra.Application</sourceDirectory>
-		<testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>
+						com.ante.meridiem.infra.Application
+					</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
-
 </project>
