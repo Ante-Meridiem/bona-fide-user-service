@@ -9,3 +9,5 @@ The code is strongly built around the Bona Fide domain.In order to achieve that,
 
 Quality is a state of mind, we strongly recommend to apply the following methodologies:
 **Test Driven Development,SOLID Principles** and **Software Craftmanship**
+
+# Hexagonal Architecture
