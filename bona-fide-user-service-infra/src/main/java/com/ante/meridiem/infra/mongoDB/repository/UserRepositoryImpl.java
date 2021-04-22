@@ -9,11 +9,11 @@ import com.ante.meridiem.infra.mongoDB.model.MongoUser;
 import com.ante.meridiem.model.DomainUser;
 import com.ante.meridiem.spi.UserRepository;
 
-public class UserRepositoryImpl implements UserRepository {
+public  UserRepositoryImpl implements UserRepository {
 
     private final MongoOperations operations;
 
-    private final UserConverter userConverter;
+    private final  userConverter
 
     public UserRepositoryImpl(MongoOperations operations,UserConverter userConverter){
         this.operations = operations;
